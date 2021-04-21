@@ -1,13 +1,16 @@
 <h1>Scorpio</h1>
 
 <p><% @horoscope %></p>
+<p>
+All continues to go well professionally, Scorpio. You're feeling physically strong and vigorous. Mentally, however, you might be a bit vague. You may be easily distracted and not as sharp as usual. This isn't a good day to start a new project. Try to concentrate on finishing old tasks and tying up loose ends. You should be ready to go again in a couple of days.
+</p>
 
 <p>Your lucky numbers for today are:</p>
 
 <ul>
-  <%= @array_of_numbers.each do |a_num| %>
+  <% @array_of_numbers.each do |a_num| %>
     <li>
-      <% a_num %>
+      <%= a_num %>
     </li>
   <% end %>
 </ul>
